@@ -3,8 +3,10 @@ node_modules/
 tsconfig.tsbuildinfo
 next-env.d.ts
 
-# variáveis de ambiente locais (chaves do Supabase)
-.env*.local
+# variáveis de ambiente (chaves do Supabase, token da Vercel)
+.env*
+# ...menos o modelo, que não tem chave nenhuma e ensina o que preencher
+!.env.local.example
 
 # ligação local com o projeto da Vercel (criada pelo "vercel link")
 .vercel
