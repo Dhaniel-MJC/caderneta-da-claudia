@@ -1,0 +1,10 @@
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# variáveis de ambiente locais (chaves do Supabase)
+.env*.local
+
+# ligação local com o projeto da Vercel (criada pelo "vercel link")
+.vercel
